@@ -123,7 +123,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📬 Contacto
 
-Francisco Lopez - lopezf28@gmail.com
+Francisco Lopez - panchodev@gmail.com
 
 Link del proyecto: [https://github.com/tuusuario/portfolio](https://github.com/tuusuario/portfolio)
 
@@ -134,4 +134,4 @@ Link del proyecto: [https://github.com/tuusuario/portfolio](https://github.com/t
 - Comunidad de desarrolladores por inspiración y recursos
 
 ---
-⭐️ De Francisco Lopez [@tuusuario](https://github.com/tuusuario)
+⭐️ De Francisco Lopez https://www.linkedin.com/in/francisco-lopez-cl/
