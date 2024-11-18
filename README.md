@@ -1,3 +1,7 @@
+
+![Captura de pantalla 2024-11-17 214438](https://github.com/user-attachments/assets/ad4c8103-08d2-492f-bf5c-e2c6ad01280d)
+
+
 # Portfolio Profesional - Francisco Lopez 🚀
 
 [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -125,7 +129,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 Francisco Lopez - panchodev@gmail.com
 
-Link del proyecto: [https://github.com/tuusuario/portfolio](https://github.com/tuusuario/portfolio)
+Link del proyecto: https://franjavacisco.github.io/mi_CV/
 
 ## 🙏 Agradecimientos
 
