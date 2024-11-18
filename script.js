@@ -270,6 +270,101 @@ function setupThemeSwitcher() {
     });
 }
 
+// Footer Functions
+function setupFooter() {
+    // Update current year
+    const yearElement = document.getElementById('currentYear');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
+    // Smooth scroll for footer links
+    document.querySelectorAll('.footer-links a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Social media links interaction
+    document.querySelectorAll('.social-link').forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            link.style.transform = 'translateY(-5px) rotate(360deg)';
+        });
+
+        link.addEventListener('mouseleave', () => {
+            link.style.transform = 'translateY(0) rotate(0deg)';
+        });
+    });
+}
+
+// Add to translations object
+const footerTranslations = {
+    es: {
+        footer: {
+            about: {
+                title: "Sobre Mí",
+                description: "Profesional en Ciberseguridad y Desarrollador Full Stack con experiencia en implementación de soluciones seguras y desarrollo de aplicaciones."
+            },
+            links: {
+                title: "Enlaces Rápidos",
+                experience: "Experiencia",
+                projects: "Proyectos",
+                skills: "Habilidades",
+                contact: "Contacto"
+            },
+            contact: {
+                title: "Contacto"
+            },
+            social: {
+                title: "Redes Sociales"
+            },
+            copyright: "Francisco Lopez. Todos los derechos reservados.",
+            privacy: "Privacidad",
+            terms: "Términos"
+        }
+    },
+    en: {
+        footer: {
+            about: {
+                title: "About Me",
+                description: "Cybersecurity Professional and Full Stack Developer with experience in implementing secure solutions and application development."
+            },
+            links: {
+                title: "Quick Links",
+                experience: "Experience",
+                projects: "Projects",
+                skills: "Skills",
+                contact: "Contact"
+            },
+            contact: {
+                title: "Contact"
+            },
+            social: {
+                title: "Social Media"
+            },
+            copyright: "Francisco Lopez. All rights reserved.",
+            privacy: "Privacy",
+            terms: "Terms"
+        }
+    }
+};
+
+// Initialize footer
+document.addEventListener('DOMContentLoaded', () => {
+    setupFooter();
+});
+
+
+
 // Language Switcher
 function setupLanguageSwitcher() {
     const langBtn = document.getElementById('languageSwitcher');
