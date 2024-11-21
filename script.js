@@ -312,7 +312,7 @@ const footerTranslations = {
         footer: {
             about: {
                 title: "Sobre Mí",
-                description: "Profesional en Ciberseguridad y Desarrollador Full Stack con experiencia en implementación de soluciones seguras y desarrollo de aplicaciones."
+                description: "Profesional en Ciberseguridad y Desarrollador Front End con experiencia en implementación de soluciones seguras y desarrollo de aplicaciones."
             },
             links: {
                 title: "Enlaces Rápidos",
@@ -336,7 +336,7 @@ const footerTranslations = {
         footer: {
             about: {
                 title: "About Me",
-                description: "Cybersecurity Professional and Full Stack Developer with experience in implementing secure solutions and application development."
+                description: "Cybersecurity Professional and Front End Developer with experience in implementing secure solutions and application development."
             },
             links: {
                 title: "Quick Links",
